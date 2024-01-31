@@ -58,11 +58,7 @@ const UploadMain = () => {
         <div className="flex justify-end items-end">
           <div className="grid grid-cols-2 text-xl mt-8 m-5 pb-10">
             <IoIosNotifications className="mt-2" />
-            <img
-              src="/src/images/profile-pic.png"
-              alt=""
-              className="h-[30px]"
-            />
+            <img src="/images/profile-pic.png" alt="" className="h-[30px]" />
           </div>
         </div>
       </div>

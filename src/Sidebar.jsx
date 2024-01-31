@@ -43,7 +43,7 @@ const Sidebar = () => {
     <div className="flex justify-center shadow-md h-[100vw] -ml-20">
       <div className=" gap-4 items-center">
         <div className="justify-center grid grid-cols-2 w-[120px] mb-10">
-          <img src="/src/images/white-bg-logo.png" className="h-12 mt-5 ml-2" />
+          <img src="/images/white-bg-logo.png" className="h-12 mt-5 ml-2" />
           <div className="text-xl top-[10px] mt-7">Base</div>
         </div>
         <div className="text-gray-500 flex flex-col  items-start justify-center gap-4">

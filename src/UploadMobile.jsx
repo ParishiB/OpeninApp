@@ -135,7 +135,7 @@ const UploadMobile = () => {
               <div className="grid grid-cols-2 justify-end mb-5">
                 <div className="flex items-start ">
                   <img
-                    src="/src/images/white-bg-logo.png"
+                    src="/images/white-bg-logo.png"
                     className="h-[27px] ml-2 -mt-10 "
                   />
                   <div className="text-md  ml-2 -mt-10 mb-2 ">Base</div>
@@ -183,17 +183,14 @@ const UploadMobile = () => {
 
         <div className="flex  w-full justify-between">
           <div className="flex items-start">
-            <img
-              src="/src/images/white-bg-logo.png"
-              className="h-[26px] ml-6"
-            />
+            <img src="/images/white-bg-logo.png" className="h-[26px] ml-6" />
             <div className="text-md ">Base</div>
           </div>
           <div className="">
             <div className="grid grid-cols-2 text-xl">
               <IoIosNotifications className="mt-3" />
               <img
-                src="/src/images/profile-pic.png"
+                src="/images/profile-pic.png"
                 alt=""
                 className="h-[30px] mr-2 "
               />

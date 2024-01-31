@@ -157,7 +157,7 @@ export function CustomDragDrop({
         >
           <div className="flex-1 flex flex-col justify-center">
             <div className="mx-auto text-gray-400 mb-2">
-              <img src="/src/images/excel.svg" alt="" className="" />
+              <img src="/images/excel.svg" alt="" className="" />
             </div>
             <div className="text-[12px] flex font-normal text-gray-500 justify-center">
               <input

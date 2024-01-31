@@ -9,7 +9,7 @@ const Header = () => {
     <>
       <div className="bg-custom-blue text-white flex p-5">
         <img
-          src="/src/images/indigo-bg-logo.png"
+          src="/images/indigo-bg-logo.png"
           alt="Google Logo"
           className="h-10  "
         />

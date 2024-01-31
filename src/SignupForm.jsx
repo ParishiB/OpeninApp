@@ -28,7 +28,7 @@ const SignupForm = () => {
             aria-label="Sign in with Google"
           >
             <img
-              src="/src/images/google.png"
+              src="images/google.png"
               alt="Google Logo"
               className="h-4 w-6 object-contain"
             />
@@ -42,7 +42,7 @@ const SignupForm = () => {
             aria-label="Sign in with Apple"
           >
             <img
-              src="/src/images/apple.png"
+              src="/images/apple.png"
               alt="Apple Logo"
               className="h-5 w-8 object-contain"
             />

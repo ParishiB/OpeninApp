@@ -27,7 +27,7 @@ const Signup = () => {
         <div className="grid grid-cols-2">
           <div className="clip-custom bg-custom-blue text-white">
             <img
-              src="/src/images/indigo-bg-logo.png"
+              src="/images/indigo-bg-logo.png"
               alt="Google Logo"
               className="h-[120px]  "
             />
