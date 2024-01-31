@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom CSS */
+.clip-custom {
+  clip-path: polygon(0 0, 100% 0, 79% 100%, 0% 100%);
+}
+
+@media (min-width: 900px) and (max-width: 1200px) {
+  .left12 {
+    left: 7rem;
+  }
+}
+
+/* sidebar.css */
+.sidebar-enter {
+  transform: translateX(-100%);
+}
+
+.sidebar-enter-active {
+  transition: transform 0.5s ease-in-out;
+  transform: translateX(0);
+}
+
+.sidebar-exit {
+  transform: translateX(0);
+}
+
+.sidebar-exit-active {
+  transition: transform 0.5s ease-in-out;
+  transform: translateX(-100%);
+}
+
+select option:checked {
+  background-color: #ff0000; /* Change this to the desired color */
+  color: #ffffff; /* Change this to the desired text color */
+}

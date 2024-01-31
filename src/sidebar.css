@@ -1,0 +1,15 @@
+/* sidebar.css */
+.sidebar {
+  position: fixed;
+  top: 0;
+  left: -100%; /* Initially off-screen */
+  width: 100vw;
+  height: 100vh;
+  background-color: #fff; /* Adjust as needed */
+  transition: left 0.5s ease; /* Transition from left to right */
+  z-index: 1000; /* Ensure the sidebar is above other content */
+}
+
+.sidebar.open {
+  left: 0; /* Move the sidebar to the left edge of the viewport */
+}
